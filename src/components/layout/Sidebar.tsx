@@ -96,7 +96,7 @@ const Sidebar: React.FC = () => {
             </div>
           </div>
           <div className="text-xs text-gray-500 font-medium">
-            © 2024 Elite Solutions
+            © 2025 Ashwin Patel
           </div>
         </div>
 
