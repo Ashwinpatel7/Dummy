@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HR Performance Dashboard
 
-## Getting Started
+A modern, responsive HR dashboard built with Next.js 13+ App Router, TypeScript, and Tailwind CSS. This application provides a comprehensive interface for managing employee performance, bookmarks, and analytics with a beautiful glass morphism design.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🏠 Dashboard Homepage
+- **Employee Grid**: Responsive card layout displaying employee information
+- **Real-time Search**: Search employees by name, email, or department
+- **Advanced Filters**: Multi-select department filters and performance rating ranges
+- **Performance Ratings**: Visual star ratings with color-coded badges
+- **Quick Actions**: View, bookmark, and promote employees directly from cards
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 👤 Employee Details
+- **Dynamic Routing**: Individual employee pages with detailed information
+- **Tabbed Interface**: Overview, Projects, and Feedback sections
+- **Performance History**: Quarterly performance tracking with goals and achievements
+- **Interactive Feedback**: Add and view employee feedback with ratings
+- **Project Management**: Track employee projects and their status
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔖 Bookmark Manager
+- **Persistent Bookmarks**: Save favorite employees with localStorage persistence
+- **Statistics Dashboard**: View bookmark counts and performance metrics
+- **Quick Access**: Easy management of bookmarked employees
+- **Department Analytics**: See bookmark distribution across departments
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📊 Analytics Dashboard
+- **Interactive Charts**: Department performance visualization using Chart.js
+- **Performance Distribution**: Doughnut chart showing rating distribution
+- **Bookmark Trends**: Line chart tracking bookmark growth over time
+- **Summary Statistics**: Key metrics and performance indicators
 
-## Learn More
+### 🎨 Design & UX
+- **Glass Morphism**: Modern glass effect with backdrop blur
+- **Gradient Backgrounds**: Beautiful gradient overlays and button designs
+- **Dark Mode**: Complete dark theme support with smooth transitions
+- **Responsive Design**: Mobile-first approach with adaptive layouts
+- **Smooth Animations**: Hover effects, transitions, and loading states
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🎯 Key Features Implemented
+
+- ✅ Next.js 13+ App Router with TypeScript
+- ✅ Tailwind CSS with custom design system
+- ✅ Glass morphism design with gradients
+- ✅ Dark mode with system preference detection
+- ✅ Responsive mobile-first design
+- ✅ Employee dashboard with search and filters
+- ✅ Dynamic employee detail pages
+- ✅ Bookmark management with persistence
+- ✅ Analytics dashboard with Chart.js
+- ✅ Loading states and error handling
+- ✅ Accessibility features and keyboard navigation
+
+## 🌙 Dark Mode
+
+Complete dark mode support with system preference detection and manual toggle.
+
+## 📱 Responsive Design
+
+Fully responsive with mobile sidebar and adaptive layouts for all screen sizes.
+
+Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
