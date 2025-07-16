@@ -22,7 +22,6 @@ import {
 
 const UserCard: React.FC<UserCardProps> = ({
   employee,
-  onView: _,
   onBookmark,
   onPromote,
   isBookmarked

@@ -27,10 +27,9 @@ const pageVariants = {
 };
 
 const pageTransition = {
-  type: 'tween',
-  ease: [0.16, 1, 0.3, 1],
-  duration: 0.4
-};
+  duration: 0.4,
+  ease: [0.4, 0, 0.2, 1]
+} as const;
 
 const PageTransition: React.FC<PageTransitionProps> = ({ children }) => {
   const pathname = usePathname();

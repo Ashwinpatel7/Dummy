@@ -147,6 +147,7 @@ export interface BadgeProps {
   children: React.ReactNode;
   variant: 'primary' | 'secondary' | 'success' | 'warning' | 'danger';
   size?: 'sm' | 'md' | 'lg';
+  className?: string;
 }
 
 export interface ButtonProps {
